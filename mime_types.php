@@ -9,7 +9,7 @@ Author URI: http://jordan.liggitt.net
 License: GPL2
 */       
 
-function addUploadMimes($mimes) {
+function net_liggitt_add_mime_types($mimes) {
     $mimes = array_merge($mimes, array(
         'epub|mobi' => 'application/octet-stream'
     ));
